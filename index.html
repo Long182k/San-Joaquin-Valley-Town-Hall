@@ -12,9 +12,8 @@
       property="og:description"
       content="Bringing nationally and internationally renowned speakers"
     />
-    <meta property="og:image" content="URL_to_image" />
-    <meta property="og:url" content="URL_to_page" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <link rel="icon" href="./android-chrome-192x192.png" type="image/x-icon" />
     <title>San Joaquin Valley Town Hall</title>
     <style>
       body {
@@ -24,7 +23,7 @@
         background-color: #f9f9f9;
       }
       header {
-        background-color: #ffc;
+        background-color: #f0a033;
         padding: 20px;
         max-width: 800px;
         border: 2px solid #800000;
@@ -37,7 +36,7 @@
       header img {
         width: 100px;
         height: auto;
-        margin-left: -296px;
+        margin-left: -268px;
       }
       header div {
         text-align: left;
@@ -49,7 +48,7 @@
       }
       header h2 {
         margin: 0;
-        color: #555;
+        color: black;
         font-style: italic;
         font-size: 1.2em;
       }
@@ -58,7 +57,7 @@
         max-width: 800px;
         margin: 0 auto;
         border: 2px solid #800000;
-        background-color: #fff;
+        background-color: #f7f7e4;
       }
       section {
         margin-bottom: 20px;
@@ -100,13 +99,16 @@
       .speaker img {
         width: 88px;
         height: 88px;
-        margin-left: 10px;
+        margin-top: 4px;
       }
       .speaker-info {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         margin-right: 10px;
+      }
+      .header-custom {
+        margin-left: 40px;
       }
     </style>
   </head>
@@ -115,7 +117,13 @@
       <img src="./logo_San.png" alt="Logo" />
       <div class="header-custom">
         <h1>San Joaquin Valley Town Hall</h1>
-        <h2>Celebrating our 75<sup>th</sup> Year</h2>
+        <h2>
+          Celebrating our
+          <span style="color: black; text-shadow: 1px 1px 2px maroon"
+            >75<sup>th</sup></span
+          >
+          Year
+        </h2>
       </div>
     </header>
     <main>
@@ -149,21 +157,27 @@
           <div class="speaker">
             <div class="speaker-info">
               <strong>October</strong>
-              <a href="#">Jeffrey Toobin</a>
+              <a href="#">
+                <strong>Jeffrey Toobin</strong>
+              </a>
               <img src="./jeffrey_toobin.png" alt="Jeffrey Toobin" />
             </div>
           </div>
           <div class="speaker">
             <div class="speaker-info">
               <strong>November</strong>
-              <a href="#">Andrew Ross Sorkin</a>
+              <a href="#">
+                <strong>Andrew Ross Sorkin</strong>
+              </a>
               <img src="andrew_ross_sorkin.png" alt="Andrew Ross Sorkin" />
             </div>
           </div>
           <div class="speaker">
             <div class="speaker-info">
               <strong>January</strong>
-              <a href="#">Amy Chua</a>
+              <a href="#">
+                <strong>Amy Chua</strong>
+              </a>
               <img src="amy_chua.png" alt="Amy Chua" />
             </div>
           </div>
